@@ -1,0 +1,159 @@
+p {
+    font-size: 20px;
+}
+
+ul {
+    font-size: 17px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #004791;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    font-size: 70px;
+    margin-bottom: 5px;
+}
+
+nav {
+    background-color: #002144;
+    text-align: center;
+    padding: 15px;
+
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 19px;
+    margin: 0 20px;
+}
+
+main {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    font-size: 30px;
+    color: #004791;
+}
+
+.image-accueil-alphabet {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+}
+
+.image-accueil-map {
+    display: block;
+    margin: 0 auto;
+    margin-top: 2%;
+    width: 30%;
+}
+
+footer {
+    background-color: #393e46;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #55b353;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #55b353;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#answer {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.test {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.test-titre {
+    text-align: center;
+}
+
+#restart-button {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.image-apprendre-flag {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    padding-top: 5%;
+}
+
+.contacter {
+    display: flex;
+    margin-right: 90px;
+    margin-bottom: 50px;
+}
+.contacter iframe {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.team {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.team .member {
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.team .member img {
+    width: 100%;
+    max-width: 225px;
+    height: auto;
+}
+
+.team .member p {
+    margin-top: 10px;
+}
+
+.sos {
+    color: white;
+    margin-left: 200px;
+}
